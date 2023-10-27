@@ -1,6 +1,7 @@
 body {
   background-color: #C1E1E3;
 }
+
 .topnav {
   font-size: 20pt;
   background-color: #36454f;
@@ -9,19 +10,19 @@ body {
   align-items: center;
 }
 
-.topnav a{
+.topnav a {
   display: flex;
   color: white;
   padding: 30px;
 }
 
-.topnav p{
+.topnav p {
   color: white;
   padding-left: 40px;
   padding-right: 150px;
 }
 
-div.content{
+div.content {
   display: flex;
 }
 
@@ -103,7 +104,7 @@ h2 {
 }
 
 .heading {
-  
+
   text-align: center;
 }
 
@@ -120,10 +121,10 @@ h2 {
   margin: 10px;
 }
 
-.projectOne p{
+.projectOne p {
   text-align: center;
 }
 
-.projectOne img{
+.projectOne img {
   width: 800px;
 }
