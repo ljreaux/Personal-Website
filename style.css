@@ -128,3 +128,14 @@ h2 {
 .projectOne img {
   width: 800px;
 }
+
+#active {
+  background-color: white;
+  color: #C1E1E3;
+}
+
+.topnav a:hover{
+  background-color: white;
+  color: black;
+}
+
