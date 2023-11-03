@@ -18,8 +18,8 @@ body {
 
 .topnav p {
   color: white;
-  padding-left: 40px;
-  padding-right: 150px;
+  margin-left: 40px;
+  margin-right: 25vw;
 }
 
 div.content {
@@ -50,7 +50,6 @@ h2 {
 }
 
 .aboutMe {
-  border: 2px, solid, red;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -134,7 +133,7 @@ h2 {
   color: #C1E1E3;
 }
 
-.topnav a:hover{
+.topnav a:hover {
   background-color: white;
   color: black;
 }
@@ -144,29 +143,67 @@ h2 {
   justify-content: center;
 }
 
-form{
-    width: 33vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #36454f;
-    border-radius: 10px;
-    color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin: 10px;
-  }
+form {
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #36454f;
+  border-radius: 10px;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+}
 
-input, label{
-  margin: 1.5vh; }
+input,
+label {
+  margin: 1.5vh;
+}
 
 
 input {
   width: 20vw;
+  min-width: fit-content;
   max-width: 200px;
 }
 
-input:last-of-type{
+textarea {
+  max-width: 90%;
+}
+
+input:last-of-type {
   width: 10vw;
 }
 
+@media only screen and (max-width: 880px) {
+
+  .topnav a,
+  p {
+    font-size: 10pt;
+    flex-wrap: wrap;
+  }
+
+  .projectOne img {
+    max-width: 90%;
+  }
+
+}
+
+@media only screen and (max-width:650px) {
+  .topnav p {
+    flex-wrap: wrap;
+    margin-right: auto;
+  }
+
+  .topnav a,
+  p {
+    font-size: 10pt;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .aboutMe img {
+    width: 600px;
+  }
+}
